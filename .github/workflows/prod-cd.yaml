@@ -8,6 +8,7 @@ on:
     paths:
       - k8-manifests/prod/app-deployment.yaml
       - .github/workflows/prod-cd.yaml
+  workflow_dispatch:     
 
 permissions:
   contents: write
